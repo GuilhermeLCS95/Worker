@@ -1,0 +1,15 @@
+C:\Users\gui_f\source\repos\Worker\bin\Debug\net6.0\Projeto.exe
+C:\Users\gui_f\source\repos\Worker\bin\Debug\net6.0\Projeto.deps.json
+C:\Users\gui_f\source\repos\Worker\bin\Debug\net6.0\Projeto.runtimeconfig.json
+C:\Users\gui_f\source\repos\Worker\bin\Debug\net6.0\Projeto.dll
+C:\Users\gui_f\source\repos\Worker\bin\Debug\net6.0\Projeto.pdb
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.csproj.AssemblyReference.cache
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.AssemblyInfoInputs.cache
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.AssemblyInfo.cs
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.csproj.CoreCompileInputs.cache
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.dll
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\refint\Projeto.dll
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.pdb
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\Projeto.genruntimeconfig.cache
+C:\Users\gui_f\source\repos\Worker\obj\Debug\net6.0\ref\Projeto.dll
