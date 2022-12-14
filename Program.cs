@@ -13,9 +13,9 @@ namespace Course
             string deptName = Console.ReadLine();
             Console.WriteLine("Enter worker data");
             Console.Write("Name: ");
-            string name= Console.ReadLine();
+            string name= Console.ReadLine();           
             Console.Write("Level (Junior/MidLevel/Senior): ");
-            WorkerLevel level = Enum.Parse<WorkerLevel> (Console.ReadLine());
+            WorkerLevel level = ReturnWorkerLevel();                        
             Console.Write("Base salary: ");
             double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Department dept = new Department(deptName);
@@ -43,5 +43,21 @@ namespace Course
             Console.WriteLine("Department: " + worker.Department.Name);
             Console.WriteLine("income for: " + monthAndYear + " : " + worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture));
         }
-    }
+        static WorkerLevel ReturnWorkerLevel()
+        {
+            do
+            {
+                try
+                {
+                    WorkerLevel level = Enum.Parse<WorkerLevel>(Console.ReadLine().ToUpper());                    
+                    return level;
+                }
+                catch (ArgumentException e)
+                {
+                    Console.WriteLine("Insert a valid value: ");
+                    continue;
+                }
+            } while (true);
+        }
+    }    
 }

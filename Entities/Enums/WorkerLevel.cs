@@ -3,8 +3,8 @@ namespace Projeto.Entities.Enums
 {
      enum WorkerLevel : int 
     {
-        Junior = 0,
-        MidLevel = 1,
-        Senior = 2,
+        JUNIOR = 0,
+        MIDLEVEL = 1,
+        SENIOR = 2,
     }
 }
